@@ -1,0 +1,778 @@
+@charset "UTF-8";
+
+// Amethyst theme for Jekyll
+
+$size-sm: 0.8rem;
+$size-1: 1rem;
+$size-2: 1.333rem;
+$size-3: 1.777rem;
+$size-4: 2.369rem;
+$size-5: 3.157rem;
+$size-spacing: $size-2;
+$box-spacing: $size-1;
+
+$color-white: #fff;
+$color-light: #f4f4f4;
+$color-off-white: #cdcdcd;
+$color-darkgrey: #63676d; // based on 2015 api.jquery.com design
+$color-black: #333;
+
+$screen-s: 480px;
+$screen-m: 768px;
+$screen-l: 992px;
+$screen-xl: 1200px;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    // This is the background for the footer.
+    // Set here in order to fill any empty space after the footer, on short pages.
+    background: $color-light;
+}
+
+body {
+    background: $color-white;
+    color: $color-black;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-black;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: $size-spacing;
+}
+h1 { font-size: $size-4; color: $color-accent; }
+h2 { font-size: $size-3; }
+h3 { font-size: $size-2; color: $color-darkgrey; }
+h4 { font-size: $size-1; color: $color-darkgrey; }
+h5 { font-size: $size-1; color: $color-darkgrey; }
+h6 { font-size: $size-1; color: $color-darkgrey; }
+
+p {
+    margin: 0;
+    margin-bottom: $size-spacing;
+}
+
+a {
+    color: $color-vibrant;
+    text-decoration: none;
+
+    &:active,
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+.content a:not(.button) {
+    border-bottom: 0.1em solid currentColor;
+
+    &:active,
+    &:hover,
+    &:focus {
+        text-decoration: none;
+
+        box-shadow: 0px 0px 0px 4px $color-bright;
+        background-color: $color-bright;
+        color: $color-accent;
+        border-bottom-color: $color-vibrant;
+        border-bottom-width: 0.13em;
+
+        code {
+            background-color: transparent;
+        }
+    }
+}
+
+pre, code {
+    // Menlo – macOS 10.6+. Preferred instead of Monaco which doesn't do bolding very well.
+    // Consolas – Windows Vista & newer
+    // DejaVu Sans Mono – Ubuntu, Fedora
+    font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;
+}
+
+code {
+    font-size: 90%;
+    background: $color-light;
+    padding: 0.2em 0.4em;
+}
+
+pre.highlight {
+    border: 1px solid #ddd;
+    border-left: 4px solid $color-vibrant;
+    border-radius: 4px;
+    margin: 0 0 $size-spacing 0;
+    padding: 0.5rem 1rem;
+    font-size: 95%;
+    line-height: 140%;
+    overflow-x: auto;
+}
+.highlight code {
+    padding: 0;
+    background: transparent;
+}
+
+hr {
+    margin: $size-5 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+iframe {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.wrapper {
+    max-width: 65rem;
+    margin: 0 auto;
+    @media (min-width: $screen-m) {
+        padding: 0 $size-spacing;
+    }
+}
+
+.main {
+    padding: $size-spacing;
+}
+
+// Allow layouts to have a sidebar
+.sidebar {
+    display: none;
+}
+@media (min-width: $screen-m) {
+    .main--columns {
+        display: flex;
+    }
+    .content {
+        // Take up available space even if the lines of text are short.
+        // This affects where right-floated boxes go, such as on page-api.
+        width: 100%;
+        // Fix a quirk with scrollable overflow in content children,
+        // such as <table> or <pre>.
+        // Because content is a flex child, without 'min-width: 0',
+        // we have 'min-width: auto', which causes the viewport to
+        // get a needless vertical scrollbar.
+        // Test plan: Page with page-api layout and some <pre> code
+        // that is wider than your window.
+        min-width: 0;
+    }
+    .sidebar {
+        order: -1;
+        display: block;
+        flex: 0 0 220px;
+        margin-right: 20px;
+    }
+}
+
+.lead {
+    font-size: $size-2;
+}
+.lead--center {
+    text-align: center;
+}
+
+.note {
+    // Clear float to avoid clash with `.version-details` box
+    clear: both;
+    padding: 0.5em $box-spacing;
+    margin: $box-spacing;
+
+    background: #fff;
+    border: 1px solid #5293e6;
+    border-left-width: 4px;
+    border-radius: 4px;
+}
+.note--warning {
+    background: #fdf5c5;
+    border-color: #e6d252;
+}
+
+.button {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: $color-vibrant;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+
+    &.secondary {
+        background: transparent;
+        color: white;
+        font-weight: 100;
+    }
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+}
+
+.grid {
+    display: grid;
+    grid-gap: $size-4;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: $screen-m) {
+    .grid--small {
+        // upto three tiles per row
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid--small > :last-child:nth-child(3n+4) {
+        // if last item is lonely, center it
+        grid-column: 2 / span 2;
+    }
+
+    .grid--split {
+        // upto two large columns
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Content table */
+
+table {
+    // Reset
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    background: $color-white;
+    margin-bottom: $size-spacing;
+
+    @media (max-width: $screen-m) {
+        display: block;
+        overflow: auto;
+    }
+
+    th,
+    td {
+        border: 1px solid $color-off-white;
+        text-align: left;
+        padding: 0.3em 0.4em;
+    }
+    th {
+        background: $color-light;
+        font-weight: bold;
+    }
+    // Collapse margin from paragraph (or other block) with the cell padding
+    th :first-child,
+    td :first-child {
+        margin-top: 0;
+    }
+    th :last-child,
+    td :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Site header */
+
+.site-header {
+    background: $color-accent;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    // Ensure shadow overlaps hero (next sibling)
+    position: relative;
+}
+
+.site-header-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0 $size-spacing;
+    justify-content: space-between;
+    position: relative;
+}
+
+.site-logo {
+    color: $color-white;
+    display: flex;
+    align-items: center;
+    font-size: $size-2;
+    font-weight: bold;
+    padding: $size-1 0 $size-1 $size-1;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    img {
+        width: auto;
+        height: $size-4;
+        margin-right: calc($size-spacing / 2);
+    }
+}
+
+.site-logo:hover {
+    color: $color-white;
+}
+
+/* Site navigation */
+
+.site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: $color-white;
+    border-top: 1px solid $color-off-white;
+    z-index: 1;
+
+    &.opened {
+        display: block;
+    }
+
+    @media (min-width: $screen-m) {
+        display: block;
+        position: relative;
+        align-self: center;
+        background: transparent;
+        border-top: 0;
+    }
+}
+
+.site-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    @media (min-width: $screen-m) {
+        box-shadow: none;
+    }
+}
+
+.site-nav-item {
+    display: block;
+    height: 100%;
+    border-bottom: 1px solid $color-off-white;
+
+    @media (min-width: $screen-m) {
+        display: inline-block;
+        border-bottom: 0;
+        position: relative;
+    }
+}
+
+.site-nav-link {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: $size-1;
+    text-decoration: none;
+    cursor: pointer; // For non-link <span> with sub list
+
+    @media (min-width: $screen-m) {
+        color: $color-bright;
+
+        &:active,
+        &:hover,
+        &:focus {
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+}
+
+.site-nav-link.has-sub-list::after {
+    content: '▼';
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.site-nav-sub-list {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: $color-white;
+    border-radius: 3px;
+
+    @media (min-width: $screen-m) {
+        position: absolute;
+        // Align right so that when a submenu item is wider
+        // than its main parent, it can overflow to the left
+        // instead of causing horizontal page overflow.
+        left: auto;
+        right: 0;
+        // Avoid line breaks, if possible
+        // (This is like 'white-space: nowrap' but with fallback
+        // to wrap if the screen is not wide enough)
+        width: max-content;
+        max-width: 90vw;
+
+        padding: 0.5rem 1rem;
+        margin-top: 6px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+}
+
+// Modern browsers support focus-within.
+// Open menu on clicking the entry link, and stay open until
+// a click outside the menu or a click on a different menu.
+// Specifically, when using accessibility tools to focus links
+// in the submenu (thus not focussing the entry link any more),
+// the menu must stay open.
+.site-nav-item:focus-within .site-nav-sub-list {
+    display: block;
+}
+// In older browsers, fall back to opening on click,
+// and trying to stay open so long as the cursor is within the menu.
+// This must be a separate selector block.
+// <https://css-tricks.com/solved-with-css-dropdown-menus/>
+.site-nav-link:focus ~ .site-nav-sub-list,
+.site-nav-sub-list:hover {
+    display: block;
+}
+
+.site-sub-nav-link {
+    display: block;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+
+    @media (min-width: $screen-m) {
+        padding: 0.5rem;
+    }
+}
+
+/* Search */
+
+.tsmb-form {
+    --tsmb-color-base-background: #{lighten($color-accent, 12%)};
+    --tsmb-color-primary30: #{$color-accent};
+    --tsmb-color-primary50: #{$color-vibrant};
+    --tsmb-color-primary90: #{$color-bright};
+    --tsmb-color-base30: var(--tsmb-color-primary90);
+    --tsmb-color-base50: #{change-color($color-bright, $alpha: 0.6)}; // #a98dc1
+    --tsmb-color-base90: #{change-color($color-bright, $alpha: 0.6)};
+
+    width: auto;
+    flex: 1;
+    align-self: center;
+}
+.tsmb-form:not(:focus-within)::before {
+  filter: unquote("invert()");
+}
+.tsmb-form input[type="search"] {
+  border: none;
+}
+@media (max-width: $screen-m) {
+    .tsmb-form {
+        display: none;
+        flex: 100%;
+        order: 10;
+        --tsmb-size-input: calc( var(--tsmb-size-base) * 2.0 );
+    }
+}
+
+
+/* Site header: Mobile toggle controls */
+
+.site-toggles {
+    display: flex;
+
+    @media (min-width: $screen-m) {
+        display: none;
+    }
+}
+
+.toggle {
+    display: block;
+    height: 100%;
+    font-size: $box-spacing;
+    padding: $box-spacing;
+    border: none;
+    background: transparent;
+    color: $color-bright;
+    cursor: pointer;
+}
+
+.icon {
+    position: static;
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: middle;
+    width: $size-2;
+    height: $size-2;
+    transform: none;
+}
+
+.toggle[aria-expanded="true"] .icon {
+    fill: $color-white;
+}
+
+/* Sidebar */
+
+.sidebar h4 {
+    font-size: $size-1;
+    margin: $size-spacing 0 calc($box-spacing / 2) 0;
+    padding-left: 4px;
+}
+
+.sidebar hr {
+    margin-bottom: $size-spacing;
+}
+
+.sidebar-list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar-item {
+    border-left: 4px solid transparent;
+}
+.sidebar-item-active {
+    border-left-color: $color-vibrant;
+}
+
+.sidebar-item a {
+    border-left: 1px solid $color-bright;
+    // Larger and more consistent click target
+    display: block;
+
+    padding: calc($box-spacing / 2);
+
+    color: $color-accent;
+    text-decoration: none;
+}
+.sidebar-item-active a,
+.sidebar-item a:active,
+.sidebar-item a:hover,
+.sidebar-item a:focus {
+    background: $color-bright;
+    text-decoration: none;
+}
+
+.toc-wrapper {
+    position: sticky;
+    top: 0;
+}
+.toc-wrapper .toc {
+    max-height: calc( 100vh - 2.5rem );
+    overflow-y: auto;
+}
+.toc,
+.toc ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.toc .sidebar-item,
+.toc .sidebar-item a {
+    border-left: 0;
+}
+
+// .toc,
+// .toc ol {
+//   counter-reset: section;
+// }
+// .toc li:before {
+//   counter-increment: section;
+//   // Combine with any parent section(s), separated by dot
+//   // content: counters(section, ".") ". ";
+// }
+
+/* Layout: page */
+
+.hero {
+    margin-bottom: $size-spacing;
+    background-color: darken($color-vibrant, 12%);
+    background-image: linear-gradient(135deg, darken($color-vibrant, 12%), $color-vibrant );
+    padding: ($size-4 * 2) 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: $size-5;
+}
+
+.hero-title img {
+    height: 1em;
+}
+
+.hero-title,
+.hero-description {
+    color: $color-white;
+    margin: 0;
+}
+
+.hero-description {
+    font-weight: 100;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.hero-button {
+    font-size: $size-2;
+    margin-top: $size-4;
+}
+
+/* Layout: page-api */
+
+.h-api-desc {
+    // Let anchor jump to page title
+    margin-top: -6rem;
+}
+
+.version-details {
+    font-size: $size-sm;
+    font-weight: bold;
+    padding: 0.2em 0.4em;
+
+    @media (min-width: $screen-m) {
+        clear: right;
+        float: right;
+        margin-left: 1.333rem;
+        text-align: left;
+        border-width: 1px;
+        border-style: solid;
+
+        .sep {
+            display: block;
+            width: 0px;
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+.version-details {
+    background: $color-light;
+    border-color: $color-off-white;
+}
+
+/* Layout: home */
+
+.layout-home {
+    h2, h3 {
+        text-align: center;
+        font-weight: 300;
+        + .lead {
+            margin-top: -$size-spacing;
+        }
+    }
+}
+
+.home-highlights {
+    text-align: center;
+}
+
+.example-result iframe,
+.example-result pre {
+    height: 360px;
+}
+
+/* Layout: post, posts */
+
+article > header {
+    border-bottom: 4px solid $color-off-white;
+    margin-bottom: $size-spacing;
+}
+
+.post-meta,
+.comment-meta {
+    font-size: $size-sm;
+    color: $color-darkgrey;
+}
+
+.comments {
+    margin-top: $size-spacing;
+    border-top: 4px solid $color-off-white;
+    padding-top: $size-spacing;
+}
+
+.comment-list {
+    margin: 0;
+    padding: 0;
+}
+
+.comment {
+    border: 1px solid $color-off-white;
+    border-radius: 1em;
+    background: $color-light;
+    padding: $size-1 $size-1 0 $size-1;
+    margin: 0 0 $size-1 102px;
+
+    position: relative;
+    min-height: 68px;
+
+    list-style: none;
+}
+
+.comment:before {
+    position: absolute;
+    top: 1px;
+    left: -25px;
+    height: $size-spacing;
+    width: $size-spacing;
+    border-radius: 100%;
+    background: $color-light;
+
+    color: $color-darkgrey;
+    font-size: $size-sm;
+    line-height: $size-spacing;
+    text-align: center;
+
+    counter-increment: li;
+    content: counter(li);
+}
+
+.comment-avatar {
+    position: absolute;
+    top: 0;
+    left: -102px;
+    border: 1px solid $color-light;
+    border-radius: 3px;
+}
+
+/* Layout: posts */
+
+
+.post-row h2 {
+    margin-bottom: $size-1;
+}
+
+.post-row .post-meta {
+    margin-bottom: $size-sm;
+}
+
+/* Site footer */
+
+.site-footer {
+    border-top: 1px solid $color-off-white;
+    margin-top: $size-4;
+    background: $color-light;
+    padding: $size-4 0;
+}
+
+.site-footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.external-links a {
+    // Larger click target for mobile
+    padding: 1rem 0.5rem;
+}
+
+.cta {
+    text-align: center;
+    font-size: 1.777rem;
+}
+
+.cta .button {
+    background: $color-vibrant;
+    border-color: $color-vibrant;
+    color: white;
+    font-weight: 100;
+}
