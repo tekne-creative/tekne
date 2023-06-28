@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-amethyst
+remote_theme: jekyll-theme-amethyst
 amethyst:
   # We keep a classic ICO file as well, for compat with de-facto standard
   # machine discovery, e.g. search engines and analytics software.
@@ -41,6 +41,7 @@ amethyst:
 plugins:
   - jekyll-feed
   - jekyll-theme-amethyst
+  - github-pages
   
 # Exclude from processing.
 # The following items will not be processed, by default.
