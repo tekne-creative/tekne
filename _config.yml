@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: jekyll-theme-amethyst
+remote_theme: qunitjs/jekyll-theme-amethyst
 amethyst:
   # We keep a classic ICO file as well, for compat with de-facto standard
   # machine discovery, e.g. search engines and analytics software.
