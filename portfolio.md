@@ -112,7 +112,7 @@ We strive to create music that shows people the better world that we wish to see
 
 ## <b> Video Production </b>
 
-Films and animations have the unique power to turn dreams into reality. By collaborating with us on a film, we can breathe vivid life into your existing ideas, and perhaps spark some new ideas within you as well.
+Films and animations have the unique power to turn dreams into reality. By collaborating with us on a film, we can breathe vivid life into your existing ideas, and spark some new ideas within you as well.
 
 <section class="grid grid--small home-highlights">
   <div>
