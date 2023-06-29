@@ -35,7 +35,7 @@ amethyst:
   favicon: /img/favicon.svg
   home_href:
   header_logo:
-    src: /img/tk-main-logo.svg
+    src: /img/tk-main-logo.png
     width: 250
     height: 72
 plugins:

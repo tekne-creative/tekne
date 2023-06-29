@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-home_img: /img/tk-text-only.svg
+home_img: /img/tk-text-only.png
 ---
 
 <p class="cta"><b>τέχνη (ték·​nē): the art of making or doing
