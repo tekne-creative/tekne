@@ -8,8 +8,8 @@
 # To create a sub menu, add a "sub" item, under with additional
 # name/href pairs can be nested.
 #
-- name: About
-  href: /about/
+- name: Contact
+  href: /contact/
 - name: Portfolio
   href: /portfolio/
   # sub:
@@ -17,5 +17,5 @@
   #     href: /about/
   #   - name: Source code
   #     href: https://github.com/qunitjs/jekyll-theme-amethyst/
-- name: Contact
-  href: /contact/
+- name: About
+  href: /about/
