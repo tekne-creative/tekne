@@ -37,7 +37,7 @@ There is no better way to connect with others than through shared experiences. T
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="{{ '/portfolio/spring/' | relative_url }}"><img src="/img/spring-album.jpg" width="220"></a>
+    <a href="{{ '/portfolio/spring/' | relative_url }}"><img src="img/spring-album.jpg" width="220"></a>
     <a href="{{ '/portfolio/spring/' | relative_url }}"><h3><b>Spring: A Violin Album</b></h3></a>
   </div>
 
