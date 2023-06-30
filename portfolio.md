@@ -13,8 +13,7 @@ Hear from some of the people we've worked with:
 
 <section class="grid grid--small home-highlights">
   <div>
-    ![image](/img/chris-profile.jpg){: width="220" }
-    <!-- <a href="{{ '/portfolio/chris/' | relative_url }}"><img src="/img/chris-profile.jpg" width="220"></a> -->
+    <a href="{{ '/portfolio/chris/' | relative_url }}"><img src="img/chris-profile.jpg" width="220"></a>
     <a href="{{ '/portfolio/chris/' | relative_url }}"><h3><b>Christopher L.</b></h3></a>
   </div>
 
@@ -42,24 +41,24 @@ There is no better way to connect with others than through shared experiences. T
   </div>
 
   <div>
-    <a href="{{ '/portfolio/dcc/' | relative_url }}"><img src="/img/dcc.jpg" width="220"></a>
+    <a href="{{ '/portfolio/dcc/' | relative_url }}"><img src="img/dcc.jpg" width="220"></a>
     <a href="{{ '/portfolio/dcc/' | relative_url }}"><h3><b>MGH Dementia Care Collaborative</b></h3></a>
   </div>
 
   <div>
-    <a href="{{ '/portfolio/vbc/' | relative_url }}"><img src="/img/vbc.jpg" width="220"></a>
+    <a href="{{ '/portfolio/vbc/' | relative_url }}"><img src="img/vbc.jpg" width="220"></a>
     <a href="{{ '/portfolio/vbc/' | relative_url }}"><h3><b>Virtual Bedside Concerts</b></h3></a>
   </div>
 </section>
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="{{ '/portfolio/cmmc/' | relative_url }}"><img src="/img/cmmc.jpg" width="220"></a>
+    <a href="{{ '/portfolio/cmmc/' | relative_url }}"><img src="img/cmmc.jpg" width="220"></a>
     <a href="{{ '/portfolio/cmmc/' | relative_url }}"><h3><b>Clara Maass Medical Center</b></h3></a>
   </div>
 
   <div>
-    <a href="{{ '/portfolio/jing/' | relative_url }}"><img src="/img/jing.jpg" width="220"></a>
+    <a href="{{ '/portfolio/jing/' | relative_url }}"><img src="img/jing.jpg" width="220"></a>
     <a href="{{ '/portfolio/jing/' | relative_url }}"><h3><b>精: The Destination is The Journey</b></h3></a>
   </div>
 
@@ -77,29 +76,29 @@ We strive to create music that shows people the better world that we wish to see
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="{{ '/portfolio/tidal/' | relative_url }}"><img src="/img/tidal.png" width="220"></a>
+    <a href="{{ '/portfolio/tidal/' | relative_url }}"><img src="img/tidal.png" width="220"></a>
     <a href="{{ '/portfolio/tidal/' | relative_url }}"><h3><b>Tidal Force</b></h3></a>
   </div>
 
   <div>
-    <a href="{{ '/portfolio/sugi/' | relative_url }}"><img src="/img/sugihara.jpg" width="220"></a>
+    <a href="{{ '/portfolio/sugi/' | relative_url }}"><img src="img/sugihara.jpg" width="220"></a>
     <a href="{{ '/portfolio/sugi/' | relative_url }}"><h3><b>勇敢に立ち向かう: Sugihara's Story</b></h3></a>
   </div>
 
   <div>
-    <a href="{{ '/portfolio/voice/' | relative_url }}"><img src="/img/kholo.jpg" width="220"></a>
+    <a href="{{ '/portfolio/voice/' | relative_url }}"><img src="img/kholo.jpg" width="220"></a>
     <a href="{{ '/portfolio/voice/' | relative_url }}"><h3><b>A Voice for the Voiceless</b></h3></a>
   </div>
 </section>
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="{{ '/portfolio/athens/' | relative_url }}"><img src="/img/coffee.jpg" width="220"></a>
+    <a href="{{ '/portfolio/athens/' | relative_url }}"><img src="img/coffee.jpg" width="220"></a>
     <a href="{{ '/portfolio/athens/' | relative_url }}"><h3><b>Athens Curatorial Project</b></h3></a>
   </div>
 
   <div>
-    <a href="{{ '/portfolio/hwahae/' | relative_url }}"><img src="/img/hwahae.jpg" width="220"></a>
+    <a href="{{ '/portfolio/hwahae/' | relative_url }}"><img src="img/hwahae.jpg" width="220"></a>
     <a href="{{ '/portfolio/hwahae/' | relative_url }}"><h3><b>화해: Reconciliation</b></h3></a>
   </div>
 
@@ -117,12 +116,12 @@ Films and animations have the unique power to turn dreams into reality. By colla
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="{{ '/portfolio/tll/' | relative_url }}"><img src="/img/tll.png" width="220"></a>
+    <a href="{{ '/portfolio/tll/' | relative_url }}"><img src="img/tll.png" width="220"></a>
     <a href="{{ '/portfolio/tll/' | relative_url }}"><h3><b>The Living Lab</b></h3></a>
   </div>
 
   <div>
-    <a href="{{ '/portfolio/beta1/' | relative_url }}"><img src="/img/beta1.jpg" width="220"></a>
+    <a href="{{ '/portfolio/beta1/' | relative_url }}"><img src="img/beta1.jpg" width="220"></a>
     <a href="{{ '/portfolio/beta1/' | relative_url }}"><h3><b>Beta–1 Studios</b></h3></a>
   </div>
 
@@ -140,19 +139,19 @@ For us, photography is not just a tool. A photography session at Tekne is collab
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="/portfolio/portrait/"><img src="/img/nazeer.jpg" width="220"></a>
+    <a href="/portfolio/portrait/"><img src="img/nazeer.jpg" width="220"></a>
     <a href="/portfolio/portrait/"><h3><b>Portraits</b></h3></a>
   </div>
 
   <div>
-    <a href="/portfolio/street/"><img src="/img/nbc.jpg" width="220"></a>
+    <a href="/portfolio/street/"><img src="img/nbc.jpg" width="220"></a>
     <a href="/portfolio/street/"><h3><b>Street Photography</b></h3></a>
   </div>
 
   <div>
-    <a href="/portfolio/nature/"><img src="/img/butterfly.jpg" width="220"></a>
+    <a href="/portfolio/nature/"><img src="img/butterfly.jpg" width="220"></a>
     <a href="/portfolio/nature/"><h3><b>Nature</b></h3></a>
   </div>
 </section>
 
-<p class="cta"><a href="{% link contact.md %}" class="button"><b>Contact</b></a><a href="{% link about.markdown %}" class="button"><b>About</b></a></p>
+<p class="cta"><a href="{{ '/about/' | relative_url }}" class="button"><b>About</b></a><a href="{{ '/contact/' | relative_url }}" class="button"><b>Contact</b></a></p>

@@ -23,4 +23,4 @@ permalink: /contact/
 2. Respect for our time and our efforts.
 3. Patience and optimism ☺
 
-<p class="cta"><a href="{% link about.markdown %}" class="button"><b>About</b></a><a href="{% link portfolio.md %}" class="button"><b>Portfolio</b></a></p>
+<p class="cta"><a href="{{ '/about/' | relative_url }}" class="button"><b>About</b></a><a href="{{ '/portfolio/' | relative_url }}" class="button"><b>Portfolio</b></a></p>

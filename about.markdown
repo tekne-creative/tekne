@@ -53,4 +53,4 @@ Jason is a medical student, neuroscience researcher, creative educator, and perf
 
 <br>
 
-<p class="cta"><a href="{{ '/contact/' | relative_url }}" class="button"><b>Contact</b></a><a href="{{ '/portfolio/' | relative_url }}" class="button"><b>Portfolio</b></a></p>
+<p class="cta"><a href="{{ '/portfolio/' | relative_url }}" class="button"><b>Portfolio</b></a><a href="{{ '/contact/' | relative_url }}" class="button"><b>Contact</b></a></p>
