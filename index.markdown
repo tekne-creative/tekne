@@ -14,7 +14,7 @@ home_img: ./img/tk-text-only.png
 
 <br>
 
-![image](/img/samples.png){: width="50%" }
+![image](/img/samples.png){: width="80%" }
 
 <br>
 
