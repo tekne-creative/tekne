@@ -41,7 +41,7 @@ Eva is a devoted educator, resourceful problem-solver, and caring listener. She 
 <div class="example-result" markdown="1">
 
 ## Jason Wang
-<img src="/img/jw-profile.jpg" width="200">
+![image](/img/jw-profile.jpg){: width="200" }
 
 ### <b>Director</b>
 
