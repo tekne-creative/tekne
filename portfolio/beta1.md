@@ -22,4 +22,4 @@ Beta–1 Studios was founded in 2015 with a simple mission: to create media that
 
 <iframe width="560" height="425" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLvj-A978cIkwt3E4ZDaaxLcVCTWlkSRpZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## [Back to portfolio](/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)

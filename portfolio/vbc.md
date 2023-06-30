@@ -12,6 +12,6 @@ Tekne has served in a leadership/advisory role for Virtual Bedside Concerts sinc
 
 To inquire further about Virtual Bedside Concerts and how you can get involved, please send us a message via our contact page, linked below:
 
-<p class="cta"><a href="{% link contact.md %}" class="button"><b>Contact us!</b></a></p>
+<p class="cta"><a href="{{ '/contact/' | relative_url }}" class="button"><b>Contact</b></a></p>
 
-## [Back to portfolio](/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)

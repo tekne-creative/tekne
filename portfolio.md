@@ -139,18 +139,18 @@ For us, photography is not just a tool. A photography session at Tekne is collab
 
 <section class="grid grid--small home-highlights">
   <div>
-    <a href="/portfolio/portrait/"><img src="img/nazeer.jpg" width="220"></a>
-    <a href="/portfolio/portrait/"><h3><b>Portraits</b></h3></a>
+    <a href="{{ '/portfolio/portrait/' | relative_url }}"><img src="img/nazeer.jpg" width="220"></a>
+    <a href="{{ '/portfolio/portrait/' | relative_url }}"><h3><b>Portraits</b></h3></a>
   </div>
 
   <div>
-    <a href="/portfolio/street/"><img src="img/nbc.jpg" width="220"></a>
-    <a href="/portfolio/street/"><h3><b>Street Photography</b></h3></a>
+    <a href="{{ '/portfolio/street/' | relative_url }}"><img src="img/nbc.jpg" width="220"></a>
+    <a href="{{ '/portfolio/street/' | relative_url }}"><h3><b>Street Photography</b></h3></a>
   </div>
 
   <div>
-    <a href="/portfolio/nature/"><img src="img/butterfly.jpg" width="220"></a>
-    <a href="/portfolio/nature/"><h3><b>Nature</b></h3></a>
+    <a href="{{ '/portfolio/nature/' | relative_url }}"><img src="img/butterfly.jpg" width="220"></a>
+    <a href="{{ '/portfolio/nature/' | relative_url }}"><h3><b>Nature</b></h3></a>
   </div>
 </section>
 

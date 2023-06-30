@@ -12,4 +12,4 @@ This was a live Zoom concert for healthcare workers and caregivers of dementia p
 
 <iframe width="560" height="425" src="https://www.youtube-nocookie.com/embed/jIIe9FrcDJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## [Back to portfolio](/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)

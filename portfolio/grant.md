@@ -17,4 +17,4 @@ I believe that Jason can serve as an excellent advisor to individuals and teams 
 Grant R.<br>
 MD/MBA candidate, Harvard Medical School & Harvard Business School
 
-## [Back to portfolio](/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)
