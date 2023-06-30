@@ -14,7 +14,7 @@ home_img: /img/tk-text-only.png
 
 <br>
 
-![image](/img/samples.png){: width="600" }
+![image](/img/samples.png){: width=auto }
 
 <br>
 

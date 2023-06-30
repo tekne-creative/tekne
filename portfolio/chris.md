@@ -4,7 +4,8 @@ title: Testimonial – Christopher L.
 permalink: /portfolio/chris/
 ---
 
-![image](/img/chris-profile.jpg){: width="220" }{: style="float: left; margin-right: 1.5em;"}
+<!-- ![image](/img/chris-profile.jpg){: width="220" }{: style="float: left; margin-right: 1.5em;"} -->
+![image](/img/chris-profile.jpg){: width="220" }
 
 Previously, as a student who was struggling with personal issues, navigating the complexities of life, and overcoming the COVID pandemic, I was fortunate enough to have had the opportunity to work with Eva from Tekne. Eva was an incredible mentor who provided me with the most amazing life advice. Her guidance and support were invaluable to me, and I am truly grateful for her presence in my life.
 

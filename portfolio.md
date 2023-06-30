@@ -13,7 +13,7 @@ Hear from some of the people we've worked with:
 
 <section class="grid grid--small home-highlights">
   <div>
-    [![Testimonial: Christopher L.](/img/chris-profile.jpg){: width="220" }](https://tekne-creative.github.io/tekne/portfolio/chris/)
+    ![image](/img/chris-profile.jpg){: width="220" }
     <!-- <a href="{{ '/portfolio/chris/' | relative_url }}"><img src="/img/chris-profile.jpg" width="220"></a> -->
     <a href="{{ '/portfolio/chris/' | relative_url }}"><h3><b>Christopher L.</b></h3></a>
   </div>
