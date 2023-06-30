@@ -15,7 +15,7 @@ home_img: /img/tk-text-only.png
 <br>
 
 {:refdef: style="text-align: center;"}
-![image](/img/samples.png){: width="900" }
+![image](/img/samples.png){: width="400" }
 {: refdef}
 
 <br>

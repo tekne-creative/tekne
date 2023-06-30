@@ -30,7 +30,7 @@ In our chaotic world, it is becoming increasingly difficult to have a clear visi
 <div class="example-result" markdown="1">
 
 ## Eva Wang
-<img src="/img/atk-profile.jpg" width="200">
+![image](/img/atk-profile.jpg){: width="200" }
 
 ### <b>Chief Vision Officer</b>
 
@@ -53,4 +53,4 @@ Jason is a medical student, neuroscience researcher, creative educator, and perf
 
 <br>
 
-<p class="cta"><a href="{% link contact.md %}" class="button"><b>Contact</b></a><a href="{% link portfolio.md %}" class="button"><b>Portfolio</b></a></p>
+<p class="cta"><a href="{{ '/contact/' | relative_url }}" class="button"><b>Contact</b></a><a href="{{ '/portfolio/' | relative_url }}" class="button"><b>Portfolio</b></a></p>
