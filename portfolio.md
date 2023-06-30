@@ -19,7 +19,7 @@ Hear from some of the people we've worked with:
   </div>
 
   <div>
-    <a href="{{ '/portfolio/grant/' | relative_url }}"><img src="/img/grant-profile.jpg" width="220"></a>
+    <a href="{{ '/portfolio/grant/' | relative_url }}"><img src="./img/grant-profile.jpg" width="220"></a>
     <a href="{{ '/portfolio/grant/' | relative_url }}"><h3><b>Grant R.</b></h3></a>
   </div>
 
