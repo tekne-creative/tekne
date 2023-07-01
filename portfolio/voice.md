@@ -8,4 +8,4 @@ This piece was originally written in the wake of the tragic deaths of Nika and M
 
 <iframe width="560" height="425" src="https://www.youtube-nocookie.com/embed/70LqqGDZQfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/#-music-compositions-)

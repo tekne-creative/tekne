@@ -12,4 +12,4 @@ Check out the intro video below to get started!
 
 <iframe width="560" height="425" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLVI61ap8zp5RoiBXq9UfPanQr3lSqaHzN&showinfo=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/#-performing-arts-)

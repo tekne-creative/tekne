@@ -307,11 +307,11 @@ table {
     text-decoration: none;
     transition: color 0.3s;
 
-    img {
-        width: auto;
-        height: $size-4;
-        margin-right: calc($size-spacing / 2);
-    }
+    // img {
+    //     width: auto;
+    //     height: $size-4;
+    //     margin-right: calc($size-spacing / 2);
+    // }
 }
 
 .site-logo:hover {

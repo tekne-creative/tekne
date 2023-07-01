@@ -14,4 +14,4 @@ To inquire further about Virtual Bedside Concerts and how you can get involved, 
 
 <p class="cta"><a href="{{ '/contact/' | relative_url }}" class="button"><b>Contact</b></a></p>
 
-## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/)
+## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/#-performing-arts-)
