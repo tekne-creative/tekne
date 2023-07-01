@@ -3,7 +3,7 @@ layout: page-api
 title: Portfolio
 permalink: /portfolio/
 ---
-Here you can browse a selection of Tekne's creative collaborations. Feel free to use the sidebar on the left to navigate between different categories.
+Here you can browse a selection of Tekne's creative collaborations. If you're on a desktop computer, feel free to use the sidebar on the left to navigate between different categories.
 
 <p class="lead">Want to be our next collaborator? <a href="{{ '/contact/' | relative_url }}" class="button">Contact us!</a></p>
 
