@@ -47,17 +47,17 @@
                         <path d="M5,80h90v16H5z"/>
                     </svg>
                 </button>
-                <!-- <script type="module">
-                const searchToggle = document.querySelector('.search-toggle');
-                const searchForm = document.querySelector('form[role=search]');
-                const searchInput = searchForm.querySelector('input[type=search]');
-                function searchFn(newState) {
-                    searchToggle.setAttribute('aria-expanded', String(newState));
-                    searchForm.style.display = newState ? 'block' : '';
-                    if (newState) {
-                        searchInput.focus();
-                    }
-                }
+                <script type="module">
+                // const searchToggle = document.querySelector('.search-toggle');
+                // const searchForm = document.querySelector('form[role=search]');
+                // const searchInput = searchForm.querySelector('input[type=search]');
+                // function searchFn(newState) {
+                //     searchToggle.setAttribute('aria-expanded', String(newState));
+                //     searchForm.style.display = newState ? 'block' : '';
+                //     if (newState) {
+                //         searchInput.focus();
+                //     }
+                // }
                 const navToggle = document.querySelector('.nav-toggle');
                 const navToggleOpens = document.querySelector(navToggle.dataset.opens);
                 function navFn(newState) {
@@ -66,15 +66,15 @@
                     navToggle.setAttribute('aria-expanded', String(newState));
                     navToggleOpens.setAttribute('aria-expanded', String(newState));
                 }
-                searchToggle.addEventListener('click', () => {
-                    navFn(false);
-                    searchFn(searchToggle.getAttribute('aria-expanded') !== 'true');
-                });
+                // searchToggle.addEventListener('click', () => {
+                //     navFn(false);
+                //     searchFn(searchToggle.getAttribute('aria-expanded') !== 'true');
+                // });
                 navToggle.addEventListener('click', () => {
                     searchFn(false);
                     navFn(!navToggle.classList.contains('opened'));
                 });
-                </script> -->
+                </script>
             </div>
         </div>
     </header>
