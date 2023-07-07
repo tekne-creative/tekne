@@ -6,4 +6,4 @@ permalink: /portfolio/nature/
 
 <iframe src="https://albumizr.com/a/srG6" scrolling="no" frameborder="0" allowfullscreen width="700" height="500"></iframe>
 
-## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/#-photography-)
+<p class="cta"><a href="https://tekne-creative.github.io/tekne/portfolio/#-photography-" class="button"><b>Back to portfolio</b></a></p>

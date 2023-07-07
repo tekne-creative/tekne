@@ -8,4 +8,4 @@ With the help of Tania Manago, Assistant Director of Patient Experience, we deli
 
 <!-- To learn more about volunteering at Clara Maass Medical Center, please follow [this link.](https://www.rwjbh.org/clara-maass-medical-center/volunteer/) -->
 
-## [Back to portfolio](https://tekne-creative.github.io/tekne/portfolio/#-performing-arts-)
+<p class="cta"><a href="https://tekne-creative.github.io/tekne/portfolio/#-performing-arts-" class="button"><b>Back to portfolio</b></a></p>
