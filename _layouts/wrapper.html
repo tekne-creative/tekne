@@ -15,7 +15,7 @@
                 {{ site.title | escape }}
                 {%- endif -%}
             </a>
-            {%- include search.html -%}
+            <!-- {%- include search.html -%} -->
             <nav class="site-nav"><ul class="site-nav-list">
                 {%- for item in site.data.sitenav -%}
                     <li class="site-nav-item{%- if item.sub %} has-sub-list{% endif %}">
@@ -71,7 +71,7 @@
                 //     searchFn(searchToggle.getAttribute('aria-expanded') !== 'true');
                 // });
                 navToggle.addEventListener('click', () => {
-                    searchFn(false);
+                    // searchFn(false);
                     navFn(!navToggle.classList.contains('opened'));
                 });
                 </script>
