@@ -32,7 +32,7 @@ home_img: ./img/tk-text-only.png
 
   <div>
     <h2><b>Media Production</b></h2>
-    <p>We provide photography and video production services to help you re-envision yourself in a greater light and show the world a new perspective to your life story.</p>
+    <p>We provide photography and media production services to help you re-envision yourself in a greater light and show the world a new perspective to your life story.</p>
   </div>
 
 </section>

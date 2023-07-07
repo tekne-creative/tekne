@@ -4,7 +4,7 @@ title: Beta–1 Studios
 permalink: /portfolio/beta1/
 ---
 
-Beta–1 Studios was founded in 2015 with a simple mission: to create media that serves as an inspirational center for learning, whether it be about motion graphics, video production, or perhaps a few other things along the way. Today, we continue to create content in collaboration with Tekne.
+Beta–1 Studios was founded in 2015 with a simple mission: to create media that serves as an inspirational center for learning, whether it be about motion graphics, video production, or perhaps a few other things along the way. Today, Beta–1 Studios continues to create content in collaboration with Tekne.
 
 ## Tutorials
 
