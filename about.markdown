@@ -6,7 +6,7 @@ permalink: /about/
 
 In our chaotic world, it is becoming increasingly difficult to have a clear vision of what we want in life. Many of us are just looking for a way forward while also maintaining a healthy state of mind.
 
-At Tekne, we strongly believe that *everyone* has the creative potential necessary to find their own resolve, and we are here to help you get there.
+<b> At Tekne, we believe that *everyone* has the creative potential to find their own resolve, and we are here to help you get there. </b>
 
 ## <b> Our approach: turn your challenge into a creative opportunity.</b>
 
