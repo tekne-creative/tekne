@@ -12,4 +12,6 @@ Check out the intro video below to get started!
 
 <iframe width="560" height="425" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLVI61ap8zp5RoiBXq9UfPanQr3lSqaHzN&showinfo=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<p class="cta"><a href="https://www.youtube.com/playlist?list=PLVI61ap8zp5RoiBXq9UfPanQr3lSqaHzN" class="button"><b>Listen to the full album on YouTube!</b></a></p>
+
 <p class="cta"><a href="https://tekne-creative.github.io/tekne/portfolio/#-performing-arts-" class="button"><b>Back to portfolio</b></a></p>
