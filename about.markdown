@@ -4,11 +4,17 @@ title: Our Mission
 permalink: /about/
 ---
 
-## We are a mother and son team that faces challenges with thoughtfulness and heart.
+### In our chaotic world, it is becoming increasingly difficult to have a clear vision of what we want in life.
 
-In our chaotic world, it is becoming increasingly difficult to have a clear vision for what we want in life. Many of us are just looking for a way forward while also maintaining a healthy state of mind. At Tekne, we strongly believe that *everyone* has the creative potential necessary to find their own resolve, and we are here to help you get there.
+Many of us are just looking for a way forward while also maintaining a healthy state of mind. At Tekne, we strongly believe that *everyone* has the creative potential necessary to find their own resolve, and we are here to help you get there.
 
-### <b> Our approach: turn your challenge into a creative project. Here are some examples: </b>
+## <b> Our approach: turn your challenge into a creative project. Here are some examples: </b>
+
+<br>
+
+![image](/img/samples2.png){: width="100%" }
+
+<br>
 
 - Looking to commemorate an important milestone in your life, but not sure where to start?
     - We can help turn your appreciation and ideas into a well-crafted film that you can share with your friends and loved ones.
@@ -25,6 +31,8 @@ In our chaotic world, it is becoming increasingly difficult to have a clear visi
 
 # <b>About Us</b>
 
+We are a mother and son team that faces challenges with thoughtfulness and heart.
+
 <div class="grid grid--split" markdown="1">
 
 <div class="example-result" markdown="1">
@@ -34,7 +42,7 @@ In our chaotic world, it is becoming increasingly difficult to have a clear visi
 
 ### <b>Chief Vision Officer</b>
 
-Eva is a devoted educator, resourceful problem-solver, and caring listener. She fosters nurturing, compassionate, and supportive learning environments while encouraging academic and personal growth. Eva is passionate about equipping our future leaders for a world of unprecedented transformation and radical uncertainties. 
+Eva is a devoted educator, resourceful problem-solver, and caring listener. She fosters nurturing, compassionate, and supportive learning environments while encouraging personal growth. Eva is passionate about equipping our future leaders for a world of unprecedented transformation and radical uncertainties. 
 
 </div>
 
@@ -45,7 +53,7 @@ Eva is a devoted educator, resourceful problem-solver, and caring listener. She 
 
 ### <b>Director</b>
 
-Jason is a medical student, neuroscience researcher, creative educator, and performing artist who brings people together with conviction, thoughtfulness, and a hint of smile. He received his B.A. in Neuroscience & Behavior from Columbia University and studied violin performance in the Columbia-Juilliard Exchange.
+Jason is a medical student, creative educator, and performing artist who brings people together with conviction, thoughtfulness, and a hint of smile. He received his B.A. in Neuroscience & Behavior from Columbia University and studied violin performance in the Columbia-Juilliard Exchange.
 
 </div>
 

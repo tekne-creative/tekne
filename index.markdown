@@ -4,6 +4,7 @@
 
 layout: home
 home_img: ./img/tk-text-only.png
+permalink: /
 ---
 
 <p class="cta"><b>τέχνη (Techne, Ték​nē): the art of making or doing in order to discover a <br>greater purpose.</b></p>
