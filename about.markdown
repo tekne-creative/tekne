@@ -4,17 +4,11 @@ title: Our Mission
 permalink: /about/
 ---
 
-### In our chaotic world, it is becoming increasingly difficult to have a clear vision of what we want in life.
+In our chaotic world, it is becoming increasingly difficult to have a clear vision of what we want in life. Many of us are just looking for a way forward while also maintaining a healthy state of mind. At Tekne, we strongly believe that *everyone* has the creative potential necessary to find their own resolve, and we are here to help you get there.
 
-Many of us are just looking for a way forward while also maintaining a healthy state of mind. At Tekne, we strongly believe that *everyone* has the creative potential necessary to find their own resolve, and we are here to help you get there.
-
-## <b> Our approach: turn your challenge into a creative project. Here are some examples: </b>
-
-<br>
+## <b> Our approach: turn your challenge into a creative project.</b>
 
 ![image](/img/samples2.png){: width="100%" }
-
-<br>
 
 - Looking to commemorate an important milestone in your life, but not sure where to start?
     - We can help turn your appreciation and ideas into a well-crafted film that you can share with your friends and loved ones.
