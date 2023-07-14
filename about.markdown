@@ -10,7 +10,11 @@ In our chaotic world, it is becoming increasingly difficult to have a clear visi
 
 ## <b> Our approach: turn your challenge into a creative opportunity.</b>
 
+<br>
+
 ![image](/img/samples2.png){: width="100%" }
+
+<br>
 
 - Looking to commemorate an important milestone in your life, but not sure where to start?
     - We can help turn your appreciation and ideas into a well-crafted film that you can share with your friends and loved ones.
