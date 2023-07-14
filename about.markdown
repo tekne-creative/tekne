@@ -16,10 +16,6 @@ In our chaotic world, it is becoming increasingly difficult to have a clear visi
 
 ![image](/img/samples2.png){: width="100%" }
 
-<div style="line-height:50%;">
-    <br>
-</div>
-
 - Looking to commemorate an important milestone in your life, but not sure where to start?
     - We can help turn your appreciation and ideas into a well-crafted film that you can share with your friends and loved ones.
     - Or, we can work with you to put together a personalized concert for the occasion – a lasting and precious memory.
