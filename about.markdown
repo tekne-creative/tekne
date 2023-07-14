@@ -17,12 +17,11 @@ In our chaotic world, it is becoming increasingly difficult to have a clear visi
 ![image](/img/samples2.png){: width="100%" }
 
 - Looking to commemorate an important milestone in your life, but not sure where to start?
-    - Tell us your ideas and we can turn them into a short film/media production that will bring your ideas to life.
+    - Tell us your ideas and we can turn them into a short film or photography session that will bring your ideas to life.
 - Want to help uplift a struggling friend or family member?
     - We can work with you to put together a personalized concert that serves as a precious memory and bonding experience.
 - Struggling to find a career that makes the most of your talents and interests? Have a concern about how to prepare yourself or your loved ones for an uncertain future?
-    - Our mentoring sessions can help you develop a plan for your future, with the help of some good books and brainstorming exercises.
-    - Or, meet with us for a guided photography session, where we nurture and develop your vision of your future as we work together on creating a series of photos that you can truly call your own.
+    - Sit down with us for a creative mentoring session and we can help you develop a plan for your future, with the help of some good books and brainstorming exercises.
 
 <b> These are just some examples of how we see obstacles as oppportunities to create something new. </b> We have experience implementing our approach across a wide variety of fields ranging from healthcare, the arts, academia, and beyond, and we are always on the lookout for more opportunities to collaborate with others and make something truly special.
 
