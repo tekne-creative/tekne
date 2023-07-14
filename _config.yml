@@ -20,7 +20,7 @@
 
 title: Tekne
 description: Bringing creative opportunities into your life.
-# baseurl: "tekne" # the subpath of your site, e.g. /blog
+baseurl: "tekne" # the subpath of your site, e.g. /blog
 url: "tekne-creative.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: tekne-creative
 
